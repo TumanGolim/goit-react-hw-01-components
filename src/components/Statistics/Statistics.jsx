@@ -8,8 +8,8 @@ const Statistics = ({ title, stats }) => {
 
       {stats && (
         <ul className="stat-list">
-          {stats.map(({ label, percentage }) => (
-            <li key={label} className="item">
+          {stats.map(({ label, percentage }, index) => (
+            <li key={`${label}-${index}`} className="item">
               <span className="label">{label}</span>
               <span className="percentage">{percentage}%</span>
             </li>
