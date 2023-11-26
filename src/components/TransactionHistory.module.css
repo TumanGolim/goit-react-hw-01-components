@@ -1,0 +1,22 @@
+.transactionHistory {
+  border-collapse: collapse;
+  width: 1300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  text-transform: uppercase;
+}
