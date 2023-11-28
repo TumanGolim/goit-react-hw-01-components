@@ -7,26 +7,28 @@
   align-items: center;
 }
 
+.item {
+  position: relative;
+  margin-bottom: 20px; 
+}
+
 .avatar {
   border-radius: 5px;
 }
 
-.online {
+.status {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: limegreen;
   border-radius: 50%;
   position: absolute;
   border: 2px solid #fff;
 }
 
+.online {
+  background-color: limegreen;
+}
+
 .offline {
-  display: block;
-  width: 20px;
-  height: 20px;
   background-color: tomato;
-  border-radius: 50%;
-  position: absolute;
-  border: 2px solid #fff;
 }
